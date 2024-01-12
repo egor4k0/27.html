@@ -64,6 +64,9 @@ p9{
     height: 159px;
     width: 159px;
 }
+.s3{ width: 159px;
+border-radius: 5px;
+}
 
 b2{
     text-decoration:underline;
