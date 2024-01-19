@@ -4,17 +4,17 @@ body{
     border-radius: 5px;
 }
 p1{
+    position: absolute;
+    top: 70px; ;
+    left: 60px;
     color: #000;
 font-family: Inter;
 font-size: 50px;
 font-style: normal;
-font-weight: 400;
-line-height: 28px; 
-margin-left: -4px;
-padding-top: 10px;
 background: aquamarine;
-margin-top: 60px;
+height: 45px;
 border-radius: 5px;
+border: 2px solid black;
 }
 .s1{
      width:200px;
@@ -26,17 +26,29 @@ border-radius: 5px;
  }
  .button{
     display: flex;
-    width: 200px;
+    width: 185px;
     background-color: rgb(251, 255, 0);
     font-size: 30px;
     margin-top: 30px;
     padding: 5px;
-    
+    border-radius: 12px;
+    text-align: center;
+    padding: 3px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
  }
-nav a{
+ nav a{
     text-decoration:none;
     color: #000;
 }
+ .button:hover{
+    background-color: rgb(120, 50, 233);
+    color:white;
+ }
+ 
+
+
 .border{
     border-bottom:  3px  black;
     border-bottom-style: dashed;
